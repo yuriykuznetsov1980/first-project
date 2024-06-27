@@ -9,21 +9,22 @@
 <body>
     <h1><b>G</b><b>o</b><b>o</b><b>g</b><b>l</b><b>e</b></h1>
 
-    <div class="search">
+    <form class="search" id="google" action="https://www.google.com/search">
         <img src="icons/search.png" alt="search">
-        <input type="text">
-        <button title="Screen keyboard">
+        <input type="text" name="q">
+        <button></button>
+        <button title="Screen keyboard" type="button">
             <img src="icons/keyboard.svg" alt="keyboard">
         </button>
-        <button title="Voice input">
+        <button title="Voice input" type="button">
             <img src="icons/mic.svg" alt="mic">
         </button>
-        <button title="Image search">
+        <button title="Image search" type="button">
             <img src="icons/camera.svg" alt="camera">
         </button>
-    </div>
+    </form>
     <div class="buttons">
-        <button>Google search</button> 
+        <button form="google">Google search</button> 
         <button>I'm lucky</button>
     </div>
 </body>
