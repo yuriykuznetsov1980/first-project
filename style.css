@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+h1 {
+    margin: 30vh auto 20px;
+    width: max-content;
+    font-size: 6em;
+    font-family: 'Product Sans', sans-serif;
+}
+
+b {
+    font-weight: 500;
+}
+
+b:nth-child(3n+1) {
+    color: #4285f4;
+}
+
+b:nth-child(4n+2) {
+    color: #ea4335;
+}
+
+b:nth-child(3) {
+    color: #fbbc05;
+}
+
+b:nth-child(5) {
+    color: #34a853;
+}
+
+.search {
+    border: 1px solid #dfe1e5;
+    width: max-content;
+    margin: auto;
+    border-radius: 99px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.search img {
+    width: 24px;
+    height: 24px;
+}
+
+.search>img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.search>input {
+    border: none;
+    width: 400px;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+[alt="keyboard"] {
+    width: 20px !important;
+    filter: opacity(0.4);
+}
+
+.buttons {
+    margin:auto;
+    width: max-content;
+    margin-top: 15px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 5px 16px;
+    cursor: pointer;
+    line-height: 27px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+}
+
+
+
